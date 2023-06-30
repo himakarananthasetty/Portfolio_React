@@ -33,7 +33,7 @@ const Navbar = () => {
             </li>
             <li>
             <Link to='work' smooth={true} offset={50} duration={500}>
-          Projects
+          Work
         </Link>
             </li>
             <li>
