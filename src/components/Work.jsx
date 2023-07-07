@@ -19,9 +19,9 @@ const Work = () => {
 
                 <div style={{backgroundImage:`url(${portfolioimg})` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     {/*Hover */}
-                    <div className='opacity-0 group-hover:opacity-100'>
+                    <div className='text-2xl font-bold text-black text-center  opacity-0 group-hover:opacity-100'>
                         <span text-2xl font-bold text-while tracking-wider >
-                        My Portfolio Application With React and TailWind CSS
+                        My Portfolio App With React.js and TailWind CSS
                         </span>
                         <div className='pt-8 text-center'>
                             <a href="https://himakarananthasetty-portfolio.netlify.app/">
@@ -35,8 +35,8 @@ const Work = () => {
                 </div>
                 <div style={{backgroundImage:`url(${amaz})` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     {/*Hover */}
-                    <div className='opacity-0 group-hover:opacity-100'>
-                        <span text-2xl font-bold text-while tracking-wider >
+                    <div className='text-2xl font-bold text-black text-center  opacity-0 group-hover:opacity-100'>
+                        <span  tracking-wider >
                         Amazon Clone With Next.js and Tail Wind CSS
                         </span>
                         <div className='pt-8 text-center'>
