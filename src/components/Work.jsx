@@ -1,6 +1,6 @@
 import React from 'react'
-import portfolioimg from '/Users/himakarananthasetty/portfolio_himakar_react/src/assets/projects/portfolio.png'
-import amaz from '/Users/himakarananthasetty/portfolio_himakar_react/src/assets/projects/amazonclone.png'
+import portfolioimg from '../assets/projects/portfolio.png'
+import amaz from '../assets/projects/amazonclone.png'
 // import imagewo from '/Users/himakarananthasetty/portfolio_himakar_react/src/assets/projects/workImg.jpeg'
 
 const Work = () => {
