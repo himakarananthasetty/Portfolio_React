@@ -3,7 +3,7 @@ import {FaBars, FaTimes, FaGithub, FaLinkedin} from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi'
 // import {AiOutlineProfile} from 'react-icons/ai'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
-import Logo from '/Users/himakarananthasetty/portfolio_himakar_react/src/assets/logo.png'
+import Logo from '/Users/himakarananthasetty/portfolio_himakar_react/public/src/assets/logo.png'
 import { Link } from 'react-scroll'
 const Navbar = () => {
     const [nav, setNav] = useState(false)
