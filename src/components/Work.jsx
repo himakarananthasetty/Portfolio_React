@@ -24,7 +24,7 @@ const Work = () => {
                         My Portfolio Application With React and TailWind CSS
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href="/">
+                            <a href="https://himakarananthasetty-portfolio.netlify.app/">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'> Demo</button>
                             </a>
                             <a href="https://github.com/himakarananthasetty/Portfolio_React">
@@ -37,7 +37,7 @@ const Work = () => {
                     {/*Hover */}
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span text-2xl font-bold text-while tracking-wider >
-                        Amazon Clone With Next Js and Tail Wind CSS
+                        Amazon Clone With Next.js and Tail Wind CSS
                         </span>
                         <div className='pt-8 text-center'>
                             <a href="https://amazon-clone-himakar.vercel.app/">
