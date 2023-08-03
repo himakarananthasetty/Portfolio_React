@@ -55,7 +55,7 @@ const Work = () => {
                     {/*Hover */}
                     <div className='text-md font-bold text-black text-center  opacity-0 group-hover:opacity-100'>
                         <span  tracking-wider >
-                        Employee Registration- CRUD application
+                        Employee Registration- CRUD application  
                                                 </span>
                                                 <span  >
                         with React and Springboot                                                    
