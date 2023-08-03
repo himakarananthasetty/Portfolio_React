@@ -11,6 +11,10 @@ import DotNet from '../assets/NET_Core.png'
 import Django from '../assets/django.png'
 import Docker from '../assets/docker.png'
 import Spring from '../assets/springboot.png'
+import Bootstrap from '../assets/bootstrap.png'
+import Angular from '../assets/angular.png'
+
+
 
 
 import GithubImg from '../assets/github.png'
@@ -93,10 +97,19 @@ const Skills = () => {
                     <img className='w-20 mx-auto' src={GithubImg} alt="Html" />
                     <p className='my-4'>GITHUB</p>
                 </div>
-                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                {/* <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                     <img className='w-20 mx-auto' src={Django} alt="Html" />
                     <p className='my-4'>DJANGO</p>
+                </div> */}
+                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                <img className='w-20 mx-auto' src={Angular} alt="Html" />
+                <p className='my-4 py-5'>ANGULAR</p>
                 </div>
+                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                <img className='w-20 mx-auto' src={Bootstrap} alt="Html" />
+                <p className='my-4 py-5'>BOOTSTRAP</p>
+                </div>
+
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                     <img className='w-20 mx-auto' src={Docker} alt="Html" />
                     <p className='my-4 py-5'>DOCKER</p>
