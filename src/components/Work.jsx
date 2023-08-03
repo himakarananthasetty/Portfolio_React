@@ -53,10 +53,13 @@ const Work = () => {
                 </div>
                 <div style={{backgroundImage:`url(${emp})` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     {/*Hover */}
-                    <div className='text-2xl font-bold text-black text-center  opacity-0 group-hover:opacity-100'>
+                    <div className='text-md font-bold text-black text-center  opacity-0 group-hover:opacity-100'>
                         <span  tracking-wider >
                         Employee Registration- CRUD application
                                                 </span>
+                                                <span  >
+                        with React and Springboot                                                    
+                                                                                                </span>
                         <div className='pt-8 text-center'>
                             <a href="https://github.com/himakarananthasetty/Springboot-react-employee-frontend">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'> Frontend code</button>
