@@ -55,10 +55,10 @@ const Work = () => {
                     {/*Hover */}
                     <div className='text-md font-bold text-black text-center  opacity-0 group-hover:opacity-100'>
                         <span  tracking-wider >
-                        Employee Registration- CRUD application  
+                        Employee Registration- CRUD application with React and Springboot                                                    
+
                                                 </span>
                                                 <span  >
-                        with React and Springboot                                                    
                                                                                                 </span>
                         <div className='pt-8 text-center'>
                             <a href="https://github.com/himakarananthasetty/Springboot-react-employee-frontend">
