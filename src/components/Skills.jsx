@@ -10,6 +10,7 @@ import MySQL from '../assets/mysql.png'
 import DotNet from '../assets/NET_Core.png'
 import Django from '../assets/django.png'
 import Docker from '../assets/docker.png'
+import Spring from '../assets/springboot.png'
 
 
 import GithubImg from '../assets/github.png'
@@ -58,6 +59,10 @@ const Skills = () => {
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                     <img className='w-20 mx-auto' src={JsImg} alt="Html" />
                     <p className='my-4'>JAVASCRIPT</p>
+                </div>
+                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                    <img className='w-20 mx-auto' src={Spring} alt="Html" />
+                    <p className='my-4'>SPRINGBOOT</p>
                 </div>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                     <img className='w-20 mx-auto' src={TailwindImg} alt="Html" />

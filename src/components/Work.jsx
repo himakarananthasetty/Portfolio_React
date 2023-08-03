@@ -1,6 +1,8 @@
 import React from 'react'
 import portfolioimg from '../assets/projects/portfolio.png'
 import amaz from '../assets/projects/amazonclone.png'
+import emp from '../assets/projects/employeereg.png'
+
 // import imagewo from '/Users/himakarananthasetty/portfolio_himakar_react/src/assets/projects/workImg.jpeg'
 
 const Work = () => {
@@ -45,6 +47,22 @@ const Work = () => {
                             </a>
                             <a href="https://github.com/himakarananthasetty/AmazonClone">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div style={{backgroundImage:`url(${emp})` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                    {/*Hover */}
+                    <div className='text-2xl font-bold text-black text-center  opacity-0 group-hover:opacity-100'>
+                        <span  tracking-wider >
+                        Employee Registration- CRUD application
+                                                </span>
+                        <div className='pt-8 text-center'>
+                            <a href="https://github.com/himakarananthasetty/Springboot-react-employee-frontend">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'> Frontend code</button>
+                            </a>
+                            <a href="https://github.com/himakarananthasetty/Springboot-react-employee-backend">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Backend code</button>
                             </a>
                         </div>
                     </div>
