@@ -103,7 +103,7 @@ const Work = () => {
             <div className="text-2xl font-bold text-black text-center  opacity-0 group-hover:opacity-100">
               <span tracking-wider>
                 Game Tracker with Ejs Template, Maria DB Docker Container, Node
-                Js and Express JS.
+                Js and Express JS. (Private repository)
               </span>
               <div className="pt-8 text-center">
                 {/* <a href="https://amazon-clone-himakar.vercel.app/">
