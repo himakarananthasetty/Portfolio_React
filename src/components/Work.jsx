@@ -3,6 +3,8 @@ import portfolioimg from "../assets/projects/portfolio.png";
 import amaz from "../assets/projects/amazonclone.png";
 import emp from "../assets/projects/employeereg.png";
 import gamtrac from "../assets/projects/gametracker.png";
+import hybridbook from "../assets/projects/hybridbook.png";
+import airlinerec from "../assets/projects/AirlineRecommendationSystem.png";
 
 // import imagewo from '/Users/himakarananthasetty/portfolio_himakar_react/src/assets/projects/workImg.jpeg'
 
@@ -113,6 +115,45 @@ const Work = () => {
                   </button>
                 </a> */}
                 <a href="https://github.com/himakarananthasetty/mie-dev-challenge">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          {/* below three closing */}
+          <div
+            style={{ backgroundImage: `url(${hybridbook})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/*Hover */}
+            <div className="text-2xl font-bold text-black text-center  opacity-0 group-hover:opacity-100">
+              <span tracking-wider>
+                Hybrid Book Recommendation Sytem with Sentimental Analysis
+                (Machine Learing Embedded Project) Private
+              </span>
+              <div className="pt-8 text-center">
+                <a href="https://github.com/himakarananthasetty/HybridBookRecommendation-with-Sentimental-Analysis">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            style={{ backgroundImage: `url(${airlinerec})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/*Hover */}
+            <div className="text-2xl font-bold text-black text-center  opacity-0 group-hover:opacity-100">
+              <span tracking-wider>
+                Airline Recommendation System with Web Scraped Real Time Data
+                (ML Embedded Project) Private
+              </span>
+              <div className="pt-8 text-center">
+                <a href="https://github.com/himakarananthasetty/AirlineRecommendationSystem">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
