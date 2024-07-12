@@ -5,6 +5,7 @@ import emp from "../assets/projects/employeereg.png";
 import gamtrac from "../assets/projects/gametracker.png";
 import hybridbook from "../assets/projects/hybridbook.png";
 import airlinerec from "../assets/projects/AirlineRecommendationSystem.png";
+import recmanagementsys from "../assets/projects/RecordManagementSystem.png";
 
 // import imagewo from '/Users/himakarananthasetty/portfolio_himakar_react/src/assets/projects/workImg.jpeg'
 
@@ -162,14 +163,14 @@ const Work = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${airlinerec})` }}
+            style={{ backgroundImage: `url(${recmanagementsys})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/*Hover */}
             <div className="text-2xl font-bold text-black text-center  opacity-0 group-hover:opacity-100">
               <span tracking-wider>
                 RecordManangement System with React, Django hosted on Amazon Web
-                Services
+                Services- S3 and Ec2.
               </span>
               <div className="pt-8 text-center">
                 <a href="http://recordmanagementsystem-react.s3-website.us-east-2.amazonaws.com/">
