@@ -5,6 +5,7 @@ import emp from "../assets/projects/employeereg.png";
 import gamtrac from "../assets/projects/gametracker.png";
 import hybridbook from "../assets/projects/hybridbook.png";
 import airlinerec from "../assets/projects/AirlineRecommendationSystem.png";
+import recordmanagementsys from "../assets/projects/RecordManagementSystem.png";
 
 // import imagewo from '/Users/himakarananthasetty/portfolio_himakar_react/src/assets/projects/workImg.jpeg'
 
@@ -154,6 +155,31 @@ const Work = () => {
               </span>
               <div className="pt-8 text-center">
                 <a href="https://github.com/himakarananthasetty/AirlineRecommendationSystem">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            style={{ backgroundImage: `url(${recordmanagementsys})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/*Hover */}
+            <div className="text-2xl font-bold text-black text-center  opacity-0 group-hover:opacity-100">
+              <span tracking-wider>
+                RecordManangement System with React, Django hosted on Amazon Web Services (S3 bucket and Ec2)
+              </span>
+              <div className="pt-8 text-center">
+              <div className="pt-8 text-center">
+                <a href="http://recordmanagementsystem-react.s3-website.us-east-2.amazonaws.com/">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    {" "}
+                    Demo
+                  </button>
+                </a>
+                <a href="https://github.com/himakarananthasetty/RecordManagementSystem_Django_React">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
